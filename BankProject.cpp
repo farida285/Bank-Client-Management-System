@@ -352,11 +352,11 @@ bool ClientIsExistsInFileByAccNum(const string& clientsFileName, const string& s
 }
 void PrintClientCard(const stClient& c1) {
     cout << "The following are the client details :\n";
-    cout << "Accout Number  :" << c1.accountNumber << endl;
-    cout << "Pin Code       :" << c1.pinCode << endl;
-    cout << "Client Name    :" << c1.name << endl;
-    cout << "Phone Number   :" << c1.phoneNumber << endl;
-    cout << "Accout Balance :" << fixed << setprecision(2) << c1.accountBalance << endl;
+    cout << "Account Number  :" << c1.accountNumber << endl;
+    cout << "PinCode         :" << c1.pinCode << endl;
+    cout << "Client Name     :" << c1.name << endl;
+    cout << "Phone Number    :" << c1.phoneNumber << endl;
+    cout << "Account Balance :" << fixed << setprecision(2) << c1.accountBalance << endl;
 
 }
 void MarkClientAsDelete(vector <stClient>& vClients, string accountNumber) {
